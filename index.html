@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>夜间光源工具</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="lightSource" class="light-source"></div>
+    
+    <div class="container">
+        <div class="controls">
+            <div class="control-group">
+                <label for="colorMode">光源模式</label>
+                <select id="colorMode">
+                    <option value="temperature">色温模式</option>
+                    <option value="color">自定义颜色</option>
+                </select>
+            </div>
+
+            <div class="control-group" id="temperatureControls">
+                <label for="colorTemp">色温调节</label>
+                <input type="range" id="colorTemp" min="2000" max="8000" value="4000">
+                <span id="colorTempValue">4000K</span>
+            </div>
+            
+            <div class="control-group" id="colorControls" style="display: none;">
+                <label for="colorPicker">选择颜色</label>
+                <input type="color" id="colorPicker" value="#FFFFFF">
+            </div>
+            
+            <div class="control-group">
+                <label for="brightness">亮度调节</label>
+                <input type="range" id="brightness" min="0" max="100" value="70">
+                <span id="brightnessValue">70%</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
