@@ -30,3 +30,9 @@
 ### 方法二：使用 Git 克隆
 
 1. 克隆仓库到本地：
+
+
+  ### 方法三：在线使用
+  
+- 访问在线演示地址：[Night Light Tool Demo](https://your-demo-url.com)
++ 访问在线演示地址：[Night Light Tool Demo](https://lemonhuhu.github.io/night-light-tool/)
